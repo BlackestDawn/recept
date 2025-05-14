@@ -3,19 +3,12 @@ body {
 }
 
 div.basebox {
-  background-color: white;
+  background-color: rgba(252, 252, 252, 1);
   margin: 0px 250px;
 }
 
-/*span.titleimg {
-}*/
-
-/*div.recipybox {
-  margin: 0px 50px 40px 50px;
-}*/
-
 h1.recipytitle {
-  color: darkred;
+  color: rgba(161, 0, 0, 1);
   margin: 20px;
 }
 
@@ -24,7 +17,7 @@ div.ingredients {
 }
 
 div.description {
-  background-color: lightgray;
+  background-color: rgba(235, 235, 235, 1);
   margin: 20px;
 }
 
