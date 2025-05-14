@@ -1,50 +1,68 @@
 body {
+  margin: 0px 0px 64px 0px;
+  padding: 0px;
   background-color: rgba(161, 0, 0, 0.3);
+  font-family: 'Open Sans', Verdana;
+  font-size: 24px;
 }
 
-div.basebox {
-  max-width: 1280px;
+div.mainbox {
+  width: 1280px;
   background-color: rgba(252, 252, 252, 1);
   margin: auto;
 }
 
 img.titleimg {
-  max-width: 1280px;
+  width: 1278px;
   min-height: 500px;
+  height: 500px;
   margin: 1px;
+  object-fit: cover;
 }
 
-h1.recipetitle {
+.recipetitle {
   color: rgba(161, 0, 0, 1);
-  margin: 32px 64px;
+  font-size: 54px;
+  font-weight: bold;
 }
 
-div.description {
+.descriptionBox {
   background-color: rgba(235, 235, 235, 1);
-  margin: 32px 64px;
-  border: 24px hidden;
 }
 
-div.ingredients {
-  margin: 32px 64px;
+.descriptionText {
+  padding: 24px;
 }
 
-div.instructions {
+.sectionMargin {
   margin: 32px 64px;
 }
 
-div.servingsimg {
-  margin: 32px 64px;
+.sectionTitleMain {
+  font-size: 40px;
+  font-weight: bold;
 }
 
-img.servingimgleft {
-  max-width: 564px;
-  min-height: 300px;
+.sectionTitleExtra {
+  font-size: 40px;
+}
+
+img.servImgSize {
+  width: 564px;
+  min-width: 564px;
+  height: 467px;
+  min-height: 467px;
+  object-fit: cover;
+}
+
+img.servImgLeft {
   float: left;
 }
 
-img.servingimgright {
-  max-width: 564px;
-  min-height: 300px;
+img.servImgRight {
   float: right;
+}
+
+.clear {
+  clear: both;
 }
