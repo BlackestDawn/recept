@@ -10,20 +10,22 @@ div.basebox {
 
 img.titleimg {
   max-width: 1280px;
+  min-height: 500px;
   margin: 1px;
 }
 
-h1.recipytitle {
+h1.recipetitle {
   color: rgba(161, 0, 0, 1);
-  margin: 32px 64px;
-}
-
-div.ingredients {
   margin: 32px 64px;
 }
 
 div.description {
   background-color: rgba(235, 235, 235, 1);
+  margin: 32px 64px;
+  border: 24px hidden;
+}
+
+div.ingredients {
   margin: 32px 64px;
 }
 
@@ -33,4 +35,16 @@ div.instructions {
 
 div.servingsimg {
   margin: 32px 64px;
+}
+
+img.servingimgleft {
+  max-width: 564px;
+  min-height: 300px;
+  float: left;
+}
+
+img.servingimgright {
+  max-width: 564px;
+  min-height: 300px;
+  float: right;
 }
