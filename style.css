@@ -3,28 +3,34 @@ body {
 }
 
 div.basebox {
+  max-width: 1280px;
   background-color: rgba(252, 252, 252, 1);
-  margin: 0px 250px;
+  margin: auto;
+}
+
+img.titleimg {
+  max-width: 1280px;
+  margin: 1px;
 }
 
 h1.recipytitle {
   color: rgba(161, 0, 0, 1);
-  margin: 20px;
+  margin: 32px 64px;
 }
 
 div.ingredients {
-  margin: 20px;
+  margin: 32px 64px;
 }
 
 div.description {
   background-color: rgba(235, 235, 235, 1);
-  margin: 20px;
+  margin: 32px 64px;
 }
 
 div.instructions {
-  margin: 20px;
+  margin: 32px 64px;
 }
 
 div.servingsimg {
-  margin: 20px;
+  margin: 32px 64px;
 }
