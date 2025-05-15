@@ -1,0 +1,32 @@
+body {
+  margin: 0px 0px 64px 0px;
+  padding: 0px;
+  background-color: rgba(161, 0, 0, 0.3);
+  font-family: 'Open Sans', Verdana;
+  font-size: 24px;
+}
+
+div.mainbox {
+  width: 1280px;
+  background-color: rgba(252, 252, 252, 1);
+  margin: auto;
+}
+
+img.titleimg {
+  width: 1278px;
+  height: 500px;
+  border: 1px solid rgba(252, 252, 252, 1);
+  object-fit: cover;
+}
+
+.sectionMargin {
+  margin: 32px 64px;
+}
+
+img.servImgSize {
+  width: 564px;
+  min-width: 564px;
+  height: 467px;
+  min-height: 467px;
+  object-fit: cover;
+}

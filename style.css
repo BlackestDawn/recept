@@ -1,24 +1,5 @@
-body {
-  margin: 0px 0px 64px 0px;
-  padding: 0px;
-  background-color: rgba(161, 0, 0, 0.3);
-  font-family: 'Open Sans', Verdana;
-  font-size: 24px;
-}
-
-div.mainbox {
-  width: 1280px;
-  background-color: rgba(252, 252, 252, 1);
-  margin: auto;
-}
-
-img.titleimg {
-  width: 1278px;
-  min-height: 500px;
-  height: 500px;
-  margin: 1px;
-  object-fit: cover;
-}
+@import "desktop.css" screen and (min-width: 601px);
+@import "mobile.css" screen and (max-width: 600px);
 
 .recipetitle {
   color: rgba(161, 0, 0, 1);
@@ -34,10 +15,6 @@ img.titleimg {
   padding: 24px;
 }
 
-.sectionMargin {
-  margin: 32px 64px;
-}
-
 .sectionTitleMain {
   font-size: 40px;
   font-weight: bold;
@@ -45,14 +22,6 @@ img.titleimg {
 
 .sectionTitleExtra {
   font-size: 40px;
-}
-
-img.servImgSize {
-  width: 564px;
-  min-width: 564px;
-  height: 467px;
-  min-height: 467px;
-  object-fit: cover;
 }
 
 img.servImgLeft {
