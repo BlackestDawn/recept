@@ -23,6 +23,15 @@ img.titleimg {
   margin: 32px 64px;
 }
 
+.servGallery {
+  margin: 20px 0px 0px 0px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: 1fr;
+  grid-column-gap: 24px;
+  grid-row-gap: 0px;
+}
+
 img.servImgSize {
   width: 564px;
   min-width: 564px;
