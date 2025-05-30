@@ -1,40 +1,75 @@
 @import "desktop.css" screen and (min-width: 601px);
 @import "mobile.css" screen and (max-width: 600px);
 
+* {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  font-family: 'Open Sans', Verdana;
+  font-size: 24px;
+}
+
+main {
+  background-color: rgba(252, 252, 252, 1);
+}
+
+article header {
+  margin: 0 auto;
+}
+
+section {
+  margin-top: 32px;
+  margin-bottom: 0;
+}
+
 h1 {
   color: rgba(161, 0, 0, 1);
   font-size: 54px;
   font-weight: bold;
-}
-
-.descriptionBox {
-  background-color: rgba(235, 235, 235, 1);
-}
-
-.descriptionText {
-  padding: 24px;
+  text-align: center;
 }
 
 h2 {
   font-size: 40px;
   font-weight: bold;
-  margin: 0px;
-  padding: 0px;
 }
 
 ul {
-  margin: 11px 0px 0px 0px;
+  margin: 11px 32px 0px 32px;
 }
 
 ol {
-  margin: 14px 0px 0px 0px;
+  margin: 14px 32px 0px 32px;
 }
 
-.sectionTitleExtra {
+.titleimage {
+  min-height: 500px;
+  height: 500px;
+  border: 1px solid rgba(252, 252, 252, 1);
+  object-fit: cover;
+}
+
+.description {
+  background-color: rgba(235, 235, 235, 1);
+  padding: 24px;
+}
+
+.heading--normal {
   font-size: 40px;
   font-weight: normal;
 }
 
-.clear {
-  clear: both;
+.gallery {
+  display: grid;
+  grid-column-gap: 24px;
+  grid-row-gap: 24px;
+}
+
+.gallery__image {
+  height: 467px;
+  min-height: 467px;
+  object-fit: cover;
 }

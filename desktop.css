@@ -1,41 +1,32 @@
 body {
-  margin: 0px 0px 64px 0px;
-  padding: 0px;
   background-color: rgba(161, 0, 0, 0.3);
-  font-family: 'Open Sans', Verdana;
-  font-size: 24px;
 }
 
-div.mainbox {
+main {
   width: 1280px;
-  background-color: rgba(252, 252, 252, 1);
-  margin: auto;
+  margin: 0 auto 64px auto;
 }
 
-img.titleimg {
+article {
+  padding-bottom: 64px;
+}
+
+section {
+  margin-left: 64px;
+  margin-right: 64px;
+}
+
+.titleimage {
   width: 1278px;
-  height: 500px;
-  border: 1px solid rgba(252, 252, 252, 1);
-  object-fit: cover;
 }
 
-.sectionMargin {
-  margin: 32px 64px;
-}
-
-.servGallery {
-  margin: 20px 0px 0px 0px;
-  display: grid;
+.gallery {
+  margin-top: 20px;
   grid-template-columns: repeat(2, 1fr);
   grid-template-rows: 1fr;
-  grid-column-gap: 24px;
-  grid-row-gap: 0px;
 }
 
-img.servImgSize {
+.gallery__image {
   width: 564px;
   min-width: 564px;
-  height: 467px;
-  min-height: 467px;
-  object-fit: cover;
 }
