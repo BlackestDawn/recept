@@ -1,31 +1,8 @@
-body {
-  background-color: rgba(0, 0, 0, 1);
-}
-
-main {
-  width: 440px;
-  margin: 0 auto;
-}
-
-article {
-  padding-bottom: 32px;
-}
-
-section {
-  margin-left: 32px;
-  margin-right: 32px;
-}
-
-.titleimage {
-  width: 438px;
-}
-
-.gallery {
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(2, 1fr);
-}
-
-.gallery__image {
-  width: 376px;
-  min-width: 300px;
+:root {
+  --clr-bg: hsl(0, 0%, 0%);
+  --spc-main: 440px;
+  --spc-side: 2rem;
+  --layout-gallery-columns: 1fr;
+  --layout-gallery-rows: repeat(2, 1fr);
+  --spc-gallery-img-width: 376px;
 }

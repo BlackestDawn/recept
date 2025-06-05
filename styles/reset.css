@@ -1,0 +1,44 @@
+/* Make sizing simpler */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* Remove default spacing on everything */
+* {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+/* Remove default spacing most major blocks */
+/* body, h1, h2, h3, h4, h5, h6, p, main, header, section, footer, article, aside {
+  font: inherit;
+  margin: 0;
+  padding: 0;
+  border: 0;
+} */
+
+/* Responsive images */
+img, picture, svg, video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Enable word break on long text */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* Pretty word wrap and wrap width */
+p {
+  text-wrap: pretty;
+  white-space: pre-wrap;
+  max-width: 65ch;
+}
+
+/* Balanced word wrap */
+h1, h2 {
+  text-wrap: balance;
+  white-space: pre-wrap;
+}
